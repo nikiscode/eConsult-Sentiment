@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eConsultation Sentiment Analysis Platform</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .presentation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .slide {
+            background: white;
+            margin: 20px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            page-break-after: always;
+        }
+        
+        .slide h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        .slide h2 {
+            color: #34495e;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        .slide h3 {
+            color: #2c3e50;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .problem-box {
+            background: #ffebee;
+            border-left: 5px solid #e74c3c;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .solution-box {
+            background: #e8f5e8;
+            border-left: 5px solid #27ae60;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .value-box {
+            background: #fff3e0;
+            border-left: 5px solid #f39c12;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .flow-step {
+            background: #f8f9fa;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            position: relative;
+        }
+        
+        .flow-step::before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .flow-container {
+            counter-reset: step-counter;
+        }
+        
+        ul {
+            line-height: 1.8;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        .metric {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .metric-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1976d2;
+        }
+        
+        .metric-label {
+            font-size: 1.2em;
+            color: #424242;
+            margin-top: 10px;
+        }
+        
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .tech-item {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #ddd;
+        }
+        
+        .tech-item h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .slide {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide 1 -->
+    <div class="slide">
+      <div class="slide-header">
+        <h2>SMART INDIA HACKATHON 2025</h2>
+        <h3>AMITY UNIVERSITY BENGALURU</h3>
+        <p><strong>Team Name:</strong> Navilens</p>
+        <p><strong>Team Members:</strong> Nikitha N, Chitra Sravan Kumar, Boddu Vishnuvardhan, Pachipala Niharika, Alle Lasya</p>
+      </div>
+    </div>
+
+        
+        <!-- Slide 1: Title -->
+        <div class="slide">
+            <h1>📊 eConsultation Sentiment Analysis Platform</h1>
+            <div style="text-align: center; margin-top: 50px;">
+                <h2>AI-Powered Stakeholder Feedback Analysis</h2>
+                <p style="font-size: 1.3em; color: #666; margin-top: 30px;">
+                    Transforming Government Consultation Processes Through Artificial Intelligence
+                </p>
+                <div style="margin-top: 40px; font-size: 1.1em; color: #888;">
+                    <p>Comprehensive Solution for MCA21 Portal eConsultation Module</p>
+                    <p>Document-Aware Sentiment Analysis & Intelligent Classification</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Problem Statement -->
+        <div class="slide">
+            <h1>🎯 Problem Statement</h1>
+            
+            <div class="problem-box">
+                <h3>Current Challenge</h3>
+                <p>The eConsultation module allows stakeholders to submit comments on proposed amendments and draft legislations. However, when substantial volumes of comments are received, there's a significant risk of:</p>
+            </div>
+            
+            <h2>Key Issues</h2>
+            <ul>
+                <li><span class="highlight">Inadvertent Oversight</span>: Critical observations being missed</li>
+                <li><span class="highlight">Inadequate Analysis</span>: Superficial review of stakeholder feedback</li>
+                <li><span class="highlight">Manual Processing</span>: Time-consuming manual analysis of large comment volumes</li>
+                <li><span class="highlight">Inconsistent Evaluation</span>: Lack of standardized analysis methodology</li>
+                <li><span class="highlight">Resource Constraints</span>: Limited human resources for comprehensive analysis</li>
+            </ul>
+            
+            <h2>Impact</h2>
+            <ul>
+                <li>Delayed Decision Making</li>
+                <li>Reduced Transparency</li>
+                <li>Compliance Risks</li>
+                <li>Stakeholder Dissatisfaction</li>
+            </ul>
+        </div>
+
+        <!-- Slide 3: Solution Overview -->
+        <div class="slide">
+            <h1>💡 Solution Overview</h1>
+            
+            <div class="solution-box">
+                <h3>AI-Powered Sentiment Analysis Platform</h3>
+                <p>A comprehensive solution that leverages artificial intelligence to systematically analyze stakeholder feedback, ensuring all comments are duly considered and properly categorized.</p>
+            </div>
+            
+            <h2>Core Capabilities</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h4>📋 Document-Aware Analysis</h4>
+                    <p>Context-sensitive sentiment analysis</p>
+                </div>
+                <div class="tech-item">
+                    <h4>🤖 Automated Classification</h4>
+                    <p>Intelligent comment categorization</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📝 Summary Generation</h4>
+                    <p>AI-powered summarization of feedback</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📊 Visual Analytics</h4>
+                    <p>Interactive dashboards and visualizations</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📤 Export Capabilities</h4>
+                    <p>Comprehensive reporting and data export</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Problem Breakdown -->
+        <div class="slide">
+            <h1>🔍 Problem Breakdown</h1>
+            
+            <h2>1. Volume Challenge</h2>
+            <div class="problem-box">
+                <p><strong>Problem:</strong> Large number of comments to process (hundreds to thousands per consultation)</p>
+                <p><strong>Impact:</strong> Time-consuming manual processing, inconsistent analysis quality, resource allocation issues</p>
+            </div>
+            
+            <h2>2. Context Understanding</h2>
+            <div class="problem-box">
+                <p><strong>Problem:</strong> Comments need to be understood in context of specific legislation</p>
+                <p><strong>Impact:</strong> Misinterpretation of stakeholder intent, inadequate understanding of concerns</p>
+            </div>
+            
+            <h2>3. Classification Complexity</h2>
+            <div class="problem-box">
+                <p><strong>Problem:</strong> Comments serve different purposes (support, opposition, suggestions, questions)</p>
+                <p><strong>Impact:</strong> Difficulty in prioritizing feedback, inconsistent response strategies</p>
+            </div>
+            
+            <h2>4. Analysis Consistency</h2>
+            <div class="problem-box">
+                <p><strong>Problem:</strong> Manual analysis lacks standardization</p>
+                <p><strong>Impact:</strong> Inconsistent results, potential bias, difficulty in comparison</p>
+            </div>
+            
+            <h2>5. Reporting and Documentation</h2>
+            <div class="problem-box">
+                <p><strong>Problem:</strong> Need for comprehensive reporting and audit trails</p>
+                <p><strong>Impact:</strong> Time-consuming report generation, inconsistent formats</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Solution Components -->
+        <div class="slide">
+            <h1>🛠️ Solution Components</h1>
+            
+            <h2>1. Document-Aware Sentiment Analysis</h2>
+            <div class="solution-box">
+                <p><strong>Technology:</strong> TF-IDF vectorization, Cosine similarity, RoBERTa model</p>
+                <p><strong>Value:</strong> Understands comments in context of specific legislation, provides relevance scores, maps comments to document sections</p>
+            </div>
+            
+            <h2>2. Intelligent Comment Classification</h2>
+            <div class="solution-box">
+                <p><strong>Technology:</strong> Rule-based classification, Machine learning models, NLP for intent detection</p>
+                <p><strong>Value:</strong> Categorizes comments as Support/Opposition/Suggestion/Question, enables targeted response strategies</p>
+            </div>
+            
+            <h2>3. AI-Powered Summarization</h2>
+            <div class="solution-box">
+                <p><strong>Technology:</strong> Facebook BART model, TextRank and LSA algorithms</p>
+                <p><strong>Value:</strong> Generates concise summaries, creates comprehensive overall summaries, reduces reading time</p>
+            </div>
+            
+            <h2>4. Visual Analytics Dashboard</h2>
+            <div class="solution-box">
+                <p><strong>Technology:</strong> Plotly for interactive charts, Word cloud generation, Real-time processing</p>
+                <p><strong>Value:</strong> Intuitive visual representation, quick trend identification, data-driven decision making</p>
+            </div>
+            
+            <h2>5. Comprehensive Reporting System</h2>
+            <div class="solution-box">
+                <p><strong>Technology:</strong> CSV export, PNG export, Timestamped reports</p>
+                <p><strong>Value:</strong> Enables further analysis, provides compliance documentation, facilitates sharing</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Application Flow -->
+        <div class="slide">
+            <h1>🔄 Application Flow</h1>
+            
+            <div class="flow-container">
+                <h2>Phase 1: Data Input</h2>
+                <div class="flow-step">
+                    <h3>Document Upload</h3>
+                    <p>Upload main legislation/amendment document (TXT, PDF formats) with automatic section extraction</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Comment Data Input</h3>
+                    <p>CSV file upload with stakeholder comments, manual entry interface, sample data for testing</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Configuration</h3>
+                    <p>Select analysis options, set parameters for summarization, choose visualization preferences</p>
+                </div>
+                
+                <h2>Phase 2: Processing</h2>
+                <div class="flow-step">
+                    <h3>Document Analysis</h3>
+                    <p>Extract document sections, generate document embeddings, create relevance scoring matrix</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Comment Processing</h3>
+                    <p>Individual sentiment analysis, relevance scoring against document, comment type classification</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Batch Analysis</h3>
+                    <p>Process all comments simultaneously, generate comprehensive results, create analysis summaries</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Application Flow (Continued) -->
+        <div class="slide">
+            <h1>🔄 Application Flow (Continued)</h1>
+            
+            <div class="flow-container">
+                <h2>Phase 3: Analysis & Visualization</h2>
+                <div class="flow-step">
+                    <h3>Sentiment Analysis Results</h3>
+                    <p>Display individual comment analysis, show sentiment distribution charts, provide confidence metrics</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Document-Aware Analysis</h3>
+                    <p>Show relevance scores, display comment type distribution, provide section-wise analysis</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Summary Generation</h3>
+                    <p>Individual comment summaries, overall consultation summary, summary statistics</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Word Cloud Visualization</h3>
+                    <p>Generate keyword clouds, show frequency analysis, export visualizations</p>
+                </div>
+                
+                <h2>Phase 4: Reporting & Export</h2>
+                <div class="flow-step">
+                    <h3>Results Export</h3>
+                    <p>CSV files for further analysis, PNG images for presentations, comprehensive reports</p>
+                </div>
+                <div class="flow-step">
+                    <h3>Documentation</h3>
+                    <p>Analysis methodology documentation, results interpretation guide, audit trail maintenance</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Technical Architecture -->
+        <div class="slide">
+            <h1>🏗️ Technical Architecture</h1>
+            
+            <h2>Frontend Layer</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h4>🌐 Streamlit Web Interface</h4>
+                    <p>User-friendly web application</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📊 Interactive Dashboards</h4>
+                    <p>Real-time data visualization</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📱 Responsive Design</h4>
+                    <p>Cross-platform compatibility</p>
+                </div>
+            </div>
+            
+            <h2>Processing Layer</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h4>🧠 Sentiment Analysis Engine</h4>
+                    <p>RoBERTa-based sentiment classification</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📄 Document Analysis Engine</h4>
+                    <p>TF-IDF and cosine similarity</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📝 Summarization Engine</h4>
+                    <p>BART model with fallback algorithms</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📈 Visualization Engine</h4>
+                    <p>Plotly and matplotlib integration</p>
+                </div>
+            </div>
+            
+            <h2>AI Models</h2>
+            <ul>
+                <li><strong>Sentiment Model:</strong> cardiffnlp/twitter-roberta-base-sentiment-latest</li>
+                <li><strong>Summarization Model:</strong> facebook/bart-large-cnn</li>
+                <li><strong>Text Processing:</strong> NLTK, spaCy, TextBlob</li>
+            </ul>
+        </div>
+        <!-- Slide 9: Conclusion -->
+        <div class="slide">
+            <h1>📞 Conclusion</h1>
+            
+            <div class="solution-box">
+                <h3>The eConsultation Sentiment Analysis Platform provides a comprehensive solution to the challenges of processing large volumes of stakeholder feedback.</h3>
+            </div>
+            
+            <h2>Key Achievements</h2>
+            <ul>
+                <li><strong>Complete Analysis:</strong> No comment is overlooked</li>
+                <li><strong>Consistent Quality:</strong> Standardized analysis methodology</li>
+                <li><strong>Efficient Processing:</strong> Rapid analysis of large volumes</li>
+                <li><strong>Transparent Reporting:</strong> Clear documentation and audit trails</li>
+                <li><strong>Data-Driven Insights:</strong> Actionable intelligence for decision makers</li>
+            </ul>
+            
+            <div class="value-box">
+                <h3>Transformation Impact</h3>
+                <p>This solution transforms the consultation process from a manual, time-consuming task into an efficient, accurate, and transparent system that enhances stakeholder engagement and improves policy-making outcomes.</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px; font-size: 1.2em; color: #2c3e50;">
+                <p><strong>Ready to revolutionize your consultation process?</strong></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

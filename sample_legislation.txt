@@ -1,0 +1,112 @@
+THE COMPANIES (AMENDMENT) ACT, 2024
+
+An Act to further amend the Companies Act, 2013.
+
+BE it enacted by Parliament in the Seventy-fifth Year of the Republic of India as follows:—
+
+1. Short title and commencement.—(1) This Act may be called the Companies (Amendment) Act, 2024.
+(2) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint.
+
+2. Amendment of section 2.—In section 2 of the Companies Act, 2013 (18 of 2013) (hereinafter referred to as the principal Act),—
+(a) after clause (41), the following clause shall be inserted, namely:—
+‘(41A) "digital signature" means authentication of any electronic record by a subscriber by means of an electronic method or procedure in accordance with the provisions of section 3 of the Information Technology Act, 2000 (21 of 2000);’
+
+3. Amendment of section 4.—In section 4 of the principal Act,—
+(a) in sub-section (1), for the words "Every company shall have a name", the words "Every company shall have a name which shall not be identical with or too nearly resembling the name of any other company" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Central Government may, by rules, prescribe the manner in which a company may change its name and the conditions subject to which such change may be made."
+
+4. Amendment of section 135.—In section 135 of the principal Act,—
+(a) in sub-section (1), for the words "Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year", the words "Every company having net worth of rupees two hundred fifty crore or more, or turnover of rupees five hundred crore or more or a net profit of rupees two crore or more during any financial year" shall be substituted;
+(b) in sub-section (5), after the words "Board of Directors", the words "and shall be published on the website of the company" shall be inserted.
+
+5. Amendment of section 164.—In section 164 of the principal Act,—
+(a) in sub-section (1), after clause (d), the following clause shall be inserted, namely:—
+"(da) has been convicted of an offence involving moral turpitude;"
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) A person shall not be eligible for appointment as a director of a company if he has been declared as a wilful defaulter by any bank or financial institution or consortium thereof."
+
+6. Amendment of section 185.—In section 185 of the principal Act,—
+(a) in sub-section (1), for the words "No company shall, directly or indirectly, advance any loan, including any loan represented by a book debt, to any of its directors or to any other person in whom the director is interested", the words "No company shall, directly or indirectly, advance any loan, including any loan represented by a book debt, to any of its directors or to any other person in whom the director is interested, except as provided in sub-section (2)" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The provisions of sub-section (1) shall not apply to—
+(a) a private company;
+(b) a company in which not less than fifty-one per cent. of the paid-up share capital is held by one or more bodies corporate."
+
+7. Amendment of section 197.—In section 197 of the principal Act,—
+(a) in sub-section (1), for the words "The total managerial remuneration payable by a public company, to its directors, including managing director and whole-time director, and its manager in respect of any financial year shall not exceed eleven per cent. of the net profits of that company for that financial year", the words "The total managerial remuneration payable by a public company, to its directors, including managing director and whole-time director, and its manager in respect of any financial year shall not exceed fifteen per cent. of the net profits of that company for that financial year" shall be substituted;
+(b) after sub-section (3), the following sub-section shall be inserted, namely:—
+"(3A) The Central Government may, by rules, prescribe the manner of calculation of managerial remuneration and the conditions subject to which such remuneration may be paid."
+
+8. Amendment of section 399.—In section 399 of the principal Act,—
+(a) in sub-section (1), for the words "Any member or members holding not less than one-tenth of the issued share capital of the company", the words "Any member or members holding not less than one-twentieth of the issued share capital of the company" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Tribunal may, on an application made by the company or any other person interested, stay the proceedings under this section for such period as it may think fit."
+
+9. Amendment of section 447.—In section 447 of the principal Act,—
+(a) in sub-section (1), for the words "If any person contravenes any of the provisions of this Act or the rules made thereunder", the words "If any person contravenes any of the provisions of this Act or the rules made thereunder, for which no penalty or punishment is provided elsewhere in this Act" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Central Government may, by rules, prescribe the procedure for compounding of offences under this Act."
+
+10. Amendment of section 469.—In section 469 of the principal Act,—
+(a) in sub-section (1), for the words "The Central Government may, by notification in the Official Gazette, make rules for carrying out the provisions of this Act", the words "The Central Government may, by notification in the Official Gazette, make rules for carrying out the provisions of this Act, and such rules may provide for all or any of the matters which by this Act are required to be prescribed or provided for by rules" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions."
+
+11. Repeal and savings.—(1) The Companies (Amendment) Ordinance, 2024 (Ord. 2 of 2024) is hereby repealed.
+(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be deemed to have been done or taken under the corresponding provisions of this Act.
+
+12. Power to remove difficulties.—(1) If any difficulty arises in giving effect to the provisions of this Act, the Central Government may, by order published in the Official Gazette, make such provisions not inconsistent with the provisions of this Act as appear to it to be necessary or expedient for removing the difficulty:
+Provided that no such order shall be made after the expiry of two years from the date of commencement of this Act.
+(2) Every order made under this section shall be laid, as soon as may be after it is made, before each House of Parliament.
+
+SCHEDULE
+
+[See section 2(a)]
+
+AMENDMENTS TO THE COMPANIES ACT, 2013
+
+1. In section 2, after clause (41), the following clause shall be inserted, namely:—
+‘(41A) "digital signature" means authentication of any electronic record by a subscriber by means of an electronic method or procedure in accordance with the provisions of section 3 of the Information Technology Act, 2000 (21 of 2000);’
+
+2. In section 4,—
+(a) in sub-section (1), for the words "Every company shall have a name", the words "Every company shall have a name which shall not be identical with or too nearly resembling the name of any other company" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Central Government may, by rules, prescribe the manner in which a company may change its name and the conditions subject to which such change may be made."
+
+3. In section 135,—
+(a) in sub-section (1), for the words "Every company having net worth of rupees five hundred crore or more, or turnover of rupees one thousand crore or more or a net profit of rupees five crore or more during any financial year", the words "Every company having net worth of rupees two hundred fifty crore or more, or turnover of rupees five hundred crore or more or a net profit of rupees two crore or more during any financial year" shall be substituted;
+(b) in sub-section (5), after the words "Board of Directors", the words "and shall be published on the website of the company" shall be inserted.
+
+4. In section 164,—
+(a) in sub-section (1), after clause (d), the following clause shall be inserted, namely:—
+"(da) has been convicted of an offence involving moral turpitude;"
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) A person shall not be eligible for appointment as a director of a company if he has been declared as a wilful defaulter by any bank or financial institution or consortium thereof."
+
+5. In section 185,—
+(a) in sub-section (1), for the words "No company shall, directly or indirectly, advance any loan, including any loan represented by a book debt, to any of its directors or to any other person in whom the director is interested", the words "No company shall, directly or indirectly, advance any loan, including any loan represented by a book debt, to any of its directors or to any other person in whom the director is interested, except as provided in sub-section (2)" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The provisions of sub-section (1) shall not apply to—
+(a) a private company;
+(b) a company in which not less than fifty-one per cent. of the paid-up share capital is held by one or more bodies corporate."
+
+6. In section 197,—
+(a) in sub-section (1), for the words "The total managerial remuneration payable by a public company, to its directors, including managing director and whole-time director, and its manager in respect of any financial year shall not exceed eleven per cent. of the net profits of that company for that financial year", the words "The total managerial remuneration payable by a public company, to its directors, including managing director and whole-time director, and its manager in respect of any financial year shall not exceed fifteen per cent. of the net profits of that company for that financial year" shall be substituted;
+(b) after sub-section (3), the following sub-section shall be inserted, namely:—
+"(3A) The Central Government may, by rules, prescribe the manner of calculation of managerial remuneration and the conditions subject to which such remuneration may be paid."
+
+7. In section 399,—
+(a) in sub-section (1), for the words "Any member or members holding not less than one-tenth of the issued share capital of the company", the words "Any member or members holding not less than one-twentieth of the issued share capital of the company" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Tribunal may, on an application made by the company or any other person interested, stay the proceedings under this section for such period as it may think fit."
+
+8. In section 447,—
+(a) in sub-section (1), for the words "If any person contravenes any of the provisions of this Act or the rules made thereunder", the words "If any person contravenes any of the provisions of this Act or the rules made thereunder, for which no penalty or punishment is provided elsewhere in this Act" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) The Central Government may, by rules, prescribe the procedure for compounding of offences under this Act."
+
+9. In section 469,—
+(a) in sub-section (1), for the words "The Central Government may, by notification in the Official Gazette, make rules for carrying out the provisions of this Act", the words "The Central Government may, by notification in the Official Gazette, make rules for carrying out the provisions of this Act, and such rules may provide for all or any of the matters which by this Act are required to be prescribed or provided for by rules" shall be substituted;
+(b) after sub-section (2), the following sub-section shall be inserted, namely:—
+"(2A) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or in two or more successive sessions."
