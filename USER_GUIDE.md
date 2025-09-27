@@ -1,4 +1,4 @@
-# eConsultation Sentiment Analysis Platform - User Guide
+# E-consultation Sentiment Analysis Platform - User Guide
 
 ## 📖 Table of Contents
 1. [Getting Started](#getting-started)
