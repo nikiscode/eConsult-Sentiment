@@ -1,4 +1,4 @@
-# eConsultation Sentiment Analysis Platform
+# e-Consultation Sentiment Analysis Platform
 ## Step-by-Step Application Flow
 
 ---
