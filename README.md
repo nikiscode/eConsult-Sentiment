@@ -1,4 +1,4 @@
-# eConsultation Sentiment Analysis Platform
+# e-Consultation Sentiment Analysis Platform
 
 A comprehensive AI-powered sentiment analysis platform designed for analyzing stakeholder feedback in the eConsultation module of MCA21 portal. This solution helps government officials efficiently analyze large volumes of comments and suggestions on proposed amendments and draft legislations.
 
