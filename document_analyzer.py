@@ -1,3 +1,4 @@
+
 """
 Document-Aware Sentiment Analysis Module
 This module provides sentiment analysis and classification based on the main document/legislation content.
