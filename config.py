@@ -1,4 +1,3 @@
-
 """
 Configuration file for eConsultation Sentiment Analysis Platform
 """
