@@ -1,4 +1,3 @@
-
 # eConsultation Sentiment Analysis Platform
 ## PowerPoint Presentation Content
 
