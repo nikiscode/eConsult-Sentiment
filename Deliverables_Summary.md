@@ -2,7 +2,6 @@
 ## Deliverables Summary
 
 ---
-
 ## 📋 Complete Deliverables Package
 
 I have created a comprehensive set of documentation and presentation materials for the eConsultation Sentiment Analysis Platform. Here's what has been delivered:
